@@ -1,4 +1,4 @@
 # DB 생성
-DROP DATABASE IF EXISTS sbb_dev;
-CREATE DATABASE sbb_dev;
-USE sbb_dev;
+DROP DATABASE IF EXISTS sbb__dev;
+CREATE DATABASE sbb__dev;
+USE sbb__dev;
