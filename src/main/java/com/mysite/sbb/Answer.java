@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import java.time.LocalDateTime;
 
-@Getter
+@Getter//getcontent
 @Setter
 @Entity
 public class Answer {
@@ -20,6 +20,7 @@ public class Answer {
 
     private LocalDateTime createDate; // datetime
 
-    private Integer questionId;
+    @ManyToOne
+    private Question question;
 
 }
